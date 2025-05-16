@@ -1,6 +1,7 @@
+#![no_std]
 #![allow(unused)]
 fn main() {
-    #[no_mangle]
+    #[unsafe(no_mangle)]
     pub extern "C" fn rust_function() {
         // ...
         // }
